@@ -13,7 +13,9 @@ When you try to include the c++ standard <mutex> header file in a C++/CLI file y
 ```
 error C1189: #error :  <mutex> is not supported when compiling with /clr or /clr:pure.
 ```
-To avoid this, you needYou'll also need to set the properties of the alpr.cpp file so that it can avoid problems with running a mutex inside a CLR app. To do this, you need to right-click in VS2017 --> properties --> C/C++ --> General --> Common Language Runtime... and set it to NO Common Language Runtime Support.
+To avoid this, you need to set the properties of the alpr.cpp file and change the 'Common Language RunTime Support' to No Common Language RunTime Support (See image below for example)
+
+![alt text](https://github.com/pjvance/OpenAlpr_Forms_Demo/blob/master/alpr_cpp_properties.png)
 
 ## Example
 The following image is an example use of the demo
