@@ -1,5 +1,3 @@
-Dependencies:
-
 You'll need the following packages installed vis powershell (may take some time)
 vcpkg (https://github.com/Microsoft/vcpkg)
 cppresksdk (https://github.com/Microsoft/cpprestsdk)
