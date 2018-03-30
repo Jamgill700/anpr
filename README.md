@@ -1,5 +1,5 @@
 # Overview
-##Prerequisites:
+## Prerequisites:
 - Windows 10, 8.1, or 7
 - Visual Studio 2017 or Visual Studio 2015 Update 3
 - Git
